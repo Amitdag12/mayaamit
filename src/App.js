@@ -7,7 +7,7 @@ import FoodPage from "./FoodPage";
 
 function App() {
   var pathG;
-  const [pageState, setPageState] = useState(<></>);
+  const [pageState, setPageState] = useState(<FirstPage CardClick={CardClick}  />);
   const [places, setPlaces] = useState([]);
 
 
@@ -49,6 +49,7 @@ function App() {
             page= <TravelPage CardClick={CardClick} />;
           }else{
             ChooseTravel(pageClicked[1])
+            return;
           }
 
           break;   
