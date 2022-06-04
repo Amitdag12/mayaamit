@@ -11,8 +11,13 @@
     align-items: center;
     justify-content: center;
     transition-duration: 1s;
+    max-width: 50em;
     
 }
 .card:hover{
     transform: scale(1.5); 
+}
+.finalCard{
+    width: auto !important;
+    min-width: 8em;
 }

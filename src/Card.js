@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Moudles.css";
-export default function Card({cardText,cardOnClicks,path}) {
+export default function Card({cardText,cardOnClicks,path,classs=""}) {
  function HandleClick(){
     cardOnClicks(path);
  }
   return (
-    <div  className={"card"} onClick={HandleClick}>
+    <div  className={`card ${classs}`}  onClick={HandleClick}>
         {cardText}
     </div>
   )
