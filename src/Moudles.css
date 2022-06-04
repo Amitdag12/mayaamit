@@ -1,0 +1,18 @@
+.card{
+    position: relative;
+    font-size: 5em;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 2rem;
+    overflow: hidden;
+    width:8em;
+    height:5em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 1s;
+    
+}
+.card:hover{
+    transform: scale(1.5); 
+}
